@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avogelato Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-b from-gray-900 via-black to-gray-900 text-gray-300 min-h-screen flex flex-col">
+  <header class="w-full p-5 flex justify-between items-center bg-black/80 fixed top-0 backdrop-blur-sm z-30">
+    <div>
+      <a href="index.html" class="font-bold text-xl text-blue-600 hover:text-blue-500 transition">Mustofa</a>
+    </div>
+    <nav class="space-x-8 font-semibold text-white text-base">
+      <a href="index.html#home" class="hover:text-blue-500">Home</a>
+    </nav>
+  </header>
+
+  <main class="flex-grow pt-24 px-6 max-w-6xl mx-auto">
+    <section class="text-center mb-12">
+      <h1 class="text-4xl font-extrabold text-blue-400 mb-2">Avogelato Design Portfolio</h1>
+      <p class="text-gray-400 text-lg">Creative visual solutions including branding, illustration, and UI/UX design</p>
+    </section>
+
+    <section class="mt-16 max-w-6xl mx-auto">
+  <div class="contact-cards flex flex-wrap justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-3">
+        <article class="contact-card gap-2">
+          <img src="assets/avo_logo.jpg" class="rounded">
+          <span class="contact-label">Phone</span>
+        </article>
+        <article class="contact-card gap-2">
+            <video class="responsive-video rounded" autoplay muted loop playsinline>
+            <source src="assets/nutrigrade.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video.
+            </video>
+          <span class="contact-label">Phone</span>
+        </article>
+  </div>
+</section>
+  </main>
+
+  <footer>
+    &copy; 2025 Mustofa. Made With ❤️.
+  </footer>
+</body>
+</html>

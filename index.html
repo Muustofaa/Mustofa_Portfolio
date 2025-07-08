@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mustofa Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-b from-gray-900 via-black to-gray-900 text-gray-300 min-h-screen flex flex-col">
+     <header class="w-full p-5 flex justify-between items-center bg-black/80 fixed top-0 backdrop-blur-sm z-30">
+        <div>
+        <a href="#home" class="font-bold text-xl text-blue-600 hover:text-blue-500 transition">Mustofa</a>
+        </div>
+        <nav class="space-x-8 font-semibold text-white text-base">
+        <a href="#home" class="hover:text-blue-500">Home</a>
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#skills" class="hover:text-blue-500">Skills</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+        </nav>
+    </header>
+    <main class="flex-grow flex items-center justify-center text-center pt-24 px-6 select-none" id="home">
+        <section>
+        <h1 class="text-[2.5rem] sm:text-5xl font-extrabold text-blue-400 mb-2 animate-fadeInDown" style="animation: fadeInDown 1s ease forwards;">
+        Mustofa
+        </h1>
+      <h2 class="text-lg sm:text-xl font-medium text-gray-400 mb-6 animate-fadeInDown" style="animation: fadeInDown 1.2s ease forwards;">
+        Flutter Developer &amp; AI Enthusiast
+      </h2>
+      <p class="text-gray-400 mb-10 leading-relaxed animate-fadeInUp" style="animation: fadeInUp 1.5s ease forwards;">
+        Computer Science student passionate about mobile development and artificial intelligence. Specializing in Flutter applications, OCR technology,
+        and on-device AI solutions.
+      </p>
+
+      <div class="flex justify-center gap-4 animate-fadeInUp" style="animation: fadeInUp 1.7s ease forwards;">
+        <a href="#projects">
+        <button class="btn-primary" aria-label="View my work">
+          <svg class="icon-code" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 18l6-6-6-6"></path>
+            <path d="M8 6l-6 6 6 6"></path>
+          </svg>
+          View My Work
+        </button>
+        </a>
+        <a href="#contact">
+            <button class="btn-outline" aria-label="Get in touch">
+              <svg class="icon-mail" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12v7a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7"></path>
+                <polyline points="22 12 12 17 2 12"></polyline>
+                <polyline points="2 7 12 12 22 7"></polyline>
+                <line x1="12" y1="17" x2="12" y2="22"></line>
+              </svg>
+              Get In Touch
+            </button>
+        </a>
+
+      </div>
+        </section>
+    </main>
+    <main class="flex-grow flex items-center justify-center text-center pt-24 px-6 select-none" id="about">
+        <section>
+            <h1>About Me</h1>
+    <section class="image-container" aria-label="Profile and project design showcase">
+      <img src="assets/mustofa.jpg" alt="Modern artistic collage showcasing creative graphic designs, posters, and digital projects in blue tone with rounded corners" />
+    </section>
+
+    <section class="cards" aria-label="About me skill cards">
+      <article class="card" tabindex="0" aria-labelledby="academic-title" role="region">
+        <div class="card-icon-container" aria-hidden="true">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 0 1 0 6.844L12 14z"/><path d="M12 14L5.84 17.422a12.083 12.083 0 0 0 0-6.844L12 14z"/></svg>
+          <div class="card-dot"></div>
+        </div>
+        <h3 id="academic-title">Academic Excellence</h3>
+        <p>Currently in my 4th semester of Computer Science at Universitas Sugeng Hartono, maintaining a strong 3.88 GPA while actively pursuing knowledge in cutting-edge technologies.</p>
+      </article>
+
+      <article class="card" tabindex="0" aria-labelledby="flutter-title" role="region">
+        <div class="card-icon-container" aria-hidden="true">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2 3 13l4 0 11-11-4 0zM14 7l7 7-4-4M11 14l-3 3"/></svg>
+          <div class="card-dot"></div>
+        </div>
+        <h3 id="flutter-title">Flutter Development</h3>
+        <p>Passionate about creating beautiful, performant mobile applications using Flutter and Dart. Experienced in building cross-platform solutions with elegant user interfaces.</p>
+      </article>
+
+      <article class="card" tabindex="0" aria-labelledby="ai-title" role="region">
+        <div class="card-icon-container" aria-hidden="true">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c-1 0-4 1-4 6s3 6 4 6 4-1 4-6-3-6-4-6z"/><path d="M9 12v10h6V12"/></svg>
+          <div class="card-dot"></div>
+        </div>
+        <h3 id="ai-title">AI & OCR</h3>
+        <p>Focused on optical character recognition and on-device AI implementations. Working on innovative solutions that bring intelligent features directly to mobile devices.</p>
+      </article>
+
+      <article class="card" tabindex="0" aria-labelledby="ui-title" role="region">
+        <div class="card-icon-container" aria-hidden="true">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M15 9a3 3 0 0 0-6 0 3 3 0 0 0 6 0zM9 17l6 0"/></svg>
+          <div class="card-dot"></div>
+        </div>
+        <h3 id="ui-title">UI/UX Design</h3>
+        <p>Skilled in creating user-centered designs using Figma. Combining technical development skills with design thinking to create exceptional user experiences.</p>
+      </article>
+    </section>
+        </section>
+    </main>
+    <main id="projects" class="section-anchor">
+        <h1>Featured Projects</h1>
+        <div class="padding"></div>
+        <section class="cards-container" aria-label="Featured projects list" id="project">
+            <article tabindex="0" class="card" aria-labelledby="project1-title" aria-describedby="project1-desc">
+                <div class="card-image" aria-hidden="true">
+                    <img src="assets/nutri_grade_icon.png"/>
+                </div>
+                <div class="card-content">
+                    <h2 id="project1-title" class="card-title">Nutri-Grade Applications</h2>
+                    <p id="project1-desc" class="card-desc">An innovative Flutter application that uses OCR technology to scan and analyze nutrition labels on food products. Features real-time scanning, nutritional analysis, and health recommendations.</p>
+                    <div class="card-tags" aria-label="Tags for Nutri-Grade FileScan project">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">OCR</span>
+                        <span class="tag">AI</span>
+                        <span class="tag">Health Tech</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="avo_page.html">
+                            <img src="assets/github.png">
+                            Code
+                        </a>
+                        <a href="demo_app_page.html">
+                            <img src="assets/replay.png">
+                            View Demo
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article tabindex="0" class="card" aria-labelledby="project2-title" aria-describedby="project2-desc">
+                <div class="card-image" aria-hidden="true">
+                    <img src="assets/avo_logo.jpg"/>
+                </div>
+                <div class="card-content">
+                    <h2 id="project2-title" class="card-title">Avogelato (P2MW 2024)</h2>
+                    <p id="project2-desc" class="card-desc">A comprehensive graphic design portfolio showcasing creative visual solutions. Features brand identity development, digital illustrations, and various print and digital media designs with modern aesthetics.</p>
+                    <div class="card-tags" aria-label="Tags for Avogelato Design Portfolio project">
+                        <span class="tag">Graphic Design</span>
+                        <span class="tag">Branding</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="avo_page.html">
+                            <img src="assets/portfolio.png">
+                            View Portfolio
+                        </a>
+                        <a href="https://www.instagram.com/avogelato_">
+                            <img src="assets/instagram.png">
+                            View In Instagram
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+    <main id="skills" class="section-anchor">
+        <h1>Skills and technologies</h1>
+        <div class="padding"></div>
+        <section aria-label="Skills and technologies" class="max-w-screen-lg mx-auto">
+
+        <div class="cards-container" role="list">
+
+          <article role="listitem" tabindex="0" class="card" aria-labelledby="flutter-dart-title" aria-describedby="flutter-dart-desc">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M14.5 3.5L9.5 11L14.5 18.5L19.8 12L14.5 5.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9.5 11L5 15.5L9.5 20" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 id="flutter-dart-title" class="card-title">Flutter &amp; Dart</h3>
+            <p id="flutter-dart-desc" class="card-desc">Cross-platform mobile development with modern UI patterns</p>
+          </article>
+
+          <article role="listitem" tabindex="0" class="card" aria-labelledby="ocr-title" aria-describedby="ocr-desc">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#3b82f6" stroke-width="2" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <circle cx="12" cy="12" r="10" stroke-linejoin="round" />
+              <circle cx="12" cy="12" r="5" />
+              <circle cx="12" cy="12" r="2" />
+            </svg>
+            <h3 id="ocr-title" class="card-title">OCR &amp; Computer Vision</h3>
+            <p id="ocr-desc" class="card-desc">Text recognition and image processing technologies</p>
+          </article>
+
+          <article role="listitem" tabindex="0" class="card" aria-labelledby="ai-title" aria-describedby="ai-desc">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="#3b82f6" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M11.999 1C7.581 1 4 4.582 4 9c0 4.418 3.581 8 7.999 8 4.418 0 8-3.582 8-8 0-4.418-3.582-8-8-8Zm-1 10H9v-2h1.999V6H9v2H7v2h2v3h2v-2ZM13 16h-1v-3h1v3ZM14 6h-1.999v3H14V6Z"/>
+            </svg>
+            <h3 id="ai-title" class="card-title">AI On-Device</h3>
+            <p id="ai-desc" class="card-desc">Machine learning models optimized for mobile deployment</p>
+          </article>
+
+          <article role="listitem" tabindex="0" class="card" aria-labelledby="uiux-title" aria-describedby="uiux-desc">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="#3b82f6" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M9 7a1 1 0 0 0-1-1H6V5a1 1 0 1 0-2 0v1H3a1 1 0 0 0 0 2h1v7H3a1 1 0 1 0 0 2h1v1a1 1 0 1 0 2 0v-1h2a1 1 0 0 0 1-1v-7Zm-2 0H6v7h1v-7Z"/>
+              <path d="M15 7a1 1 0 0 1 1-1h2V5a1 1 0 1 1 2 0v1h1a1 1 0 1 1 0 2h-1v7h1a1 1 0 1 1 0 2h-1v1a1 1 0 1 1-2 0v-1h-2a1 1 0 0 1-1-1v-7Zm2 0h-1v7h1v-7Z"/>
+            </svg>
+            <h3 id="uiux-title" class="card-title">UI/UX Design</h3>
+            <p id="uiux-desc" class="card-desc">User interface design and prototyping with Figma</p>
+          </article>
+
+          <article role="listitem" tabindex="0" class="card" aria-labelledby="git-title" aria-describedby="git-desc">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="#3b82f6" stroke="#3b82f6" stroke-width="1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M12 3c-4.2 0-7.94 3.17-8 7.38 0 4.3 3.35 7.74 7.55 7.62v-3.75l-1.98-.8a1.5 1.5 0 1 1 .56-2.85l1.93.8v6.95c4.16 0 7.49-3.39 7.45-7.77-.05-4.43-3.81-7.57-8-7.31Z"/>
+              <circle cx="8" cy="12" r="1.5" fill="#3b82f6" />
+              <circle cx="16" cy="12" r="1.5" fill="#3b82f6" />
+            </svg>
+            <h3 id="git-title" class="card-title">Git &amp; Collaboration</h3>
+            <p id="git-desc" class="card-desc">Version control and team development workflows</p>
+          </article>
+
+          <article role="listitem" tabindex="0" class="card" aria-labelledby="fullstack-title" aria-describedby="fullstack-desc">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+              <path d="M16 18l6-6-6-6"/>
+              <path d="M8 6v12"/>
+              <path d="M2 18l6-6-6-6"/>
+            </svg>
+            <h3 id="fullstack-title" class="card-title">Full-Stack Development</h3>
+            <p id="fullstack-desc" class="card-desc">Frontend and backend development with modern frameworks</p>
+          </article>
+
+        </div>
+      </section>
+    </main>
+    <main id="contact" class="section-anchor">
+        <h1>Get In Touch</h1>
+                <div class="padding"></div>
+        <div class="contact-cards">
+        <article class="contact-card" tabindex="0" aria-labelledby="email-label" aria-describedby="email-info">
+          <svg class="contact-svg" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" >
+            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8"></path>
+            <rect x="2" y="5" width="20" height="14" rx="2" ry="2"></rect>
+          </svg>
+          <span class="contact-label" id="email-label">Email</span>
+          <a href="mailto:mustofa.dev.it@gmail.com" class="contact-info" id="email-info" tabindex="0">mustofa.dev.it@gmail.com</a>
+        </article>
+
+        <article class="contact-card" tabindex="0" aria-labelledby="phone-label" aria-describedby="phone-info">
+          <svg class="contact-svg" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" >
+            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.1 2h3a2 2 0 012 1.72 12.3 12.3 0 00.7 2.81 2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.3 12.3 0 002.81.7A2 2 0 0122 16.92z"></path>
+          </svg>
+          <span class="contact-label" id="phone-label">Phone</span>
+          <a href="tel:+628980627098" class="contact-info" id="phone-info" tabindex="0">08980627098</a>
+        </article>
+
+        <article class="contact-card" tabindex="0" aria-labelledby="linkedin-label" aria-describedby="linkedin-info">
+          <svg class="contact-svg" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" >
+            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          <span class="contact-label" id="linkedin-label">LinkedIn</span>
+          <a href="https://linkedin.com/in/muustofaa" target="_blank" rel="noopener noreferrer" class="contact-info" id="linkedin-info" tabindex="0">
+            linkedin.com/in/muustofaa
+          </a>
+        </article>
+      </div>
+    </main>
+    <footer>
+    &copy; 2025 Mustofa. Made With ❤️.
+  </footer>
+  <script>
+    const buttons = document.querySelectorAll(".btn-primary, .btn-outline");
+    buttons.forEach(btn => {
+      btn.addEventListener("mousedown", () => {
+        btn.style.transform = "scale(0.95)";
+      });
+      btn.addEventListener("mouseup", () => {
+        btn.style.transform = "";
+      });
+      btn.addEventListener("mouseleave", () => {
+        btn.style.transform = "";
+      });
+    });
+  </script>
+</body>
+</html>
