@@ -521,6 +521,16 @@
             gap: 0.6rem;
             margin-bottom: 1rem;
         }
+
+        .card-tags-span {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-bottom: 1rem;
+            justify-content: center;
+            padding-top: 1rem;
+        }
+
         .tag {
             background-color: var(--tag-bg);
             color: var(--blue);
@@ -1072,7 +1082,7 @@ html {
 }
 
 .rounded{
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .responsive-video {
